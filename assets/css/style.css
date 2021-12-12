@@ -1,16 +1,32 @@
 :root { 
-    --primary-color: white; 
+    --primary-color: rgb(13, 13, 109); 
     --secondary-color: darkblue;
-    --text-color: black;
+    --text-color: black; 
+    --background-color: yellow;
 } 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } 
+
 .section-title {
     font-size: 60px; 
     padding: 15px;
-    margin: 15px 0; 
-    color: rgb(0, 0, 88);
+    margin: 15px 0;
+}  
+
+.maintitle {
+    color: var(--primary-color);
+    border-right: 10px solid var(--text-color);
+    width: 50%; 
+    display: flex;
 } 
+
+.section-org {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--background-color); 
+    padding: 30px 0;
+}
