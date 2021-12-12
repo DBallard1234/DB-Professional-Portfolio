@@ -71,5 +71,128 @@ header a {
 
 .hero-section h1 {
     font-size: 50px;
-    color: var();
+    color: var(--background-color);
+    position: relative;
+    right: 175px;
+    top: 10px;
+    text-shadow: 0 0 5px var(--text-color);
+} 
+/* End Hero Section */
+
+/* Start Section Organisation for all */
+.section-org {
+    flex: 12;
 }
+
+.section-org p {
+    color: var(--secondary-color);
+    font-size: 18px;
+} 
+
+.section-org h3 {
+    font-size: 26px;
+    line-height: 2.0;
+    color: var(white)
+} 
+/* End Section organisation for all */
+
+/* start My Work Section */
+.projects {
+    background: var(white)
+} 
+
+.project-grid {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+} 
+
+/* Start Grid layout */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 35vw;
+    height: 30vw;
+    margin: 15px auto;
+} 
+
+.collection {
+    background-color: white;
+    border: solid;
+    color: black;
+} 
+
+.box1 {
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 3;
+    border-radius: 10px; 
+    border: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../Images/run\ buddy\ example.jpeg); 
+    background-position: center;
+    background-size: cover;
+} 
+
+.box1 a {
+    text-decoration: none;
+    padding-left: 100px; 
+    font-size: 25px;
+    color: var(--text-color);
+    background-color: var(--background-color); 
+    border-radius: 5px;
+} 
+
+.box2 {
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 3;
+    border-radius: 10px; 
+    border: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../Images/run\ buddy\ example.jpeg); 
+    background-position: center;
+    background-size: cover
+} 
+
+.box3 {
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 3;
+    border-radius: 10px; 
+    border: 3px solid var(--secondary-color);
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../Images/run\ buddy\ example.jpeg); 
+    background-position: center;
+    background-size: cover
+} 
+/* End my work section */ 
+
+/* Start Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: violet;
+    color: yellowgreen;
+} 
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: left;
+    font-size: 18px;
+    width: 75%;
+} 
+.contact-container a {
+    border-bottom: 2px solid var(--text-color);
+    border-radius: 5px;
+    margin: 0 30px;
+} 
+footer a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 20px;
+} 
+/* End Footer */
