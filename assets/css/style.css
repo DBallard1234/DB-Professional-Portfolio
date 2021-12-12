@@ -1,0 +1,16 @@
+:root { 
+    --primary-color: white; 
+    --secondary-color: darkblue;
+    --text-color: black;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.section-title {
+    font-size: 60px; 
+    padding: 15px;
+    margin: 15px 0; 
+    color: rgb(0, 0, 88);
+} 
