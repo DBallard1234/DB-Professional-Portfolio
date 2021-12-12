@@ -21,12 +21,55 @@
     color: var(--primary-color);
     border-right: 10px solid var(--text-color);
     width: 50%; 
-    display: flex;
+    display: flex; 
+    justify-content: left;
 } 
 
 .section-org {
     display: flex;
     flex-wrap: wrap;
     background: var(--background-color); 
-    padding: 30px 0;
+    padding: 30px 0; 
+    justify-content: left;
+}
+
+/* Begin Header */ 
+header {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--text-color);
+} 
+
+header nav {
+    margin: 10px 0;
+    width: 100%;
+} 
+
+header nav ul {
+    padding: 5px 15px; 
+    font-weight: lighter;
+    font-size: 25px;
+} 
+
+header a {
+    text-decoration: none;
+    color: var(--background-color);
+} 
+/* End Header */ 
+
+/* Begin Hero Section */ 
+.hero-section {
+    background-image: url("../Images/IMG_0784.jpeg"); 
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    padding: 200px;
+} 
+
+.hero-section h1 {
+    font-size: 50px;
+    color: var();
 }
